@@ -16,6 +16,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
+
         Scanner in = new Scanner(System.in);
         int a;
         a = in.nextInt();
@@ -24,5 +25,6 @@ public class Solution {
         int sum;
         sum = solveMeFirst(a, b);
         System.out.println(sum);
+
     }
 }
